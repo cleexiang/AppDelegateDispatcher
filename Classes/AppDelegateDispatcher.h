@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double AppDelegateDispatcherVersionNumber;
 FOUNDATION_EXPORT const unsigned char AppDelegateDispatcherVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AppDelegateDispatcher/PublicHeader.h>
-
+#import <AppDelegateDispatcher/AppServiceDispatcher.h>
 
