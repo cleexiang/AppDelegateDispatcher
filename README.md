@@ -1,7 +1,11 @@
 # AppDelegateDispatcher
 Inspired by [https://medium.com/ios-os-x-development/pluggableapplicationdelegate-e50b2c5d97dd](https://medium.com/ios-os-x-development/pluggableapplicationdelegate-e50b2c5d97dd), AppDelegateDispatcher used to decouple AppDelegate from services.
 
-#### How to use?
+### Installation
+
+pod 'AppDelegateDispatcher'
+
+### How to use?
 * make your service conformed protocol `AppService`
 * in the service, implement methods which you want to override.
 
