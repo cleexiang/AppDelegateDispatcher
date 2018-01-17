@@ -6,9 +6,9 @@
 //  Copyright © 2018年 Lixiang. All rights reserved.
 //
 
-#import "AppServiceDispatcher.h"
+#import "AppDelegateDispatcher.h"
 
-@implementation AppServiceDispatcher
+@implementation AppDelegateDispatcher
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     for (id<AppService> module in self.services) {

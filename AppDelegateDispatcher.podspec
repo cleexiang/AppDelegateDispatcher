@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cleexiang/ApplicationModuleDispatcher'
+  s.homepage         = 'https://github.com/cleexiang/AppDelegateDispatcher'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'clee' => 'cleexiang@126.com' }
-  s.source           = { :git => 'https://github.com/cleexiang/ApplicationModuleDispatcher.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cleexiang/AppDelegateDispatcher.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

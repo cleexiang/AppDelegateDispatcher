@@ -1,19 +1,22 @@
 //
-//  AppDelegateDispatcher.h
+//  AppServiceDispatcher.h
 //  AppDelegateDispatcher
 //
 //  Created by 李响 on 2018/1/17.
 //  Copyright © 2018年 Lixiang. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-//! Project version number for AppDelegateDispatcher.
-FOUNDATION_EXPORT double AppDelegateDispatcherVersionNumber;
+@protocol AppService <UIApplicationDelegate>
 
-//! Project version string for AppDelegateDispatcher.
-FOUNDATION_EXPORT const unsigned char AppDelegateDispatcherVersionString[];
+@end
 
-// In this header, you should import all the public headers of your framework using statements like #import <AppDelegateDispatcher/PublicHeader.h>
-#import <AppDelegateDispatcher/AppServiceDispatcher.h>
+@interface AppDelegateDispatcher : UIResponder <UIApplicationDelegate>
+
+@property(nonatomic, strong) UIWindow *window;
+@property(nonatomic, strong) NSMutableArray<id<AppService>> *services;
+
+@end
 

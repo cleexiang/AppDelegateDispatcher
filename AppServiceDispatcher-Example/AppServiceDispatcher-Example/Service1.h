@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ApplicationModuleDispatcher.h"
+#import <AppDelegateDispatcher/AppDelegateDispatcher.h>
 
-@interface Service1 : NSObject <ApplicationModule>
+@interface Service1 : NSObject <AppService>
 
 @end
