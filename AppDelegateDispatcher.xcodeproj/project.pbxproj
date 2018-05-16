@@ -14,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		C92451EB200EF7430022474E /* AppDelegateDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppDelegateDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C92451EF200EF7430022474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92451FA200EF7DF0022474E /* AppDelegateDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateDispatcher.h; sourceTree = "<group>"; };
 		C92451FB200EF7DF0022474E /* AppDelegateDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateDispatcher.m; sourceTree = "<group>"; };
 		C9BD3353200EFD04008AC6BD /* AppDelegateDispatcher.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppDelegateDispatcher.podspec; sourceTree = "<group>"; };
@@ -51,7 +50,6 @@
 		C92451ED200EF7430022474E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C92451EF200EF7430022474E /* Info.plist */,
 				C92451FA200EF7DF0022474E /* AppDelegateDispatcher.h */,
 				C92451FB200EF7DF0022474E /* AppDelegateDispatcher.m */,
 			);
