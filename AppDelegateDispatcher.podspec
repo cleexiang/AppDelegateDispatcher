@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AppDelegateDispatcher'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Decouple AppDelegate from services'
 
 # This description is used to generate tags and improve search results.
