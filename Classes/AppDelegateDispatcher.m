@@ -94,6 +94,22 @@
     }
 }
 
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    for (id<AppService> service in self.services) {
+        if ([service respondsToSelector:@selector(applicationDidEnterBackground:)]) {
+            [service applicationDidEnterBackground:application];
+        }
+    }
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    for (id<AppService> service in self.services) {
+        if ([service respondsToSelector:@selector(applicationWillEnterForeground:)]) {
+            [service applicationWillEnterForeground:application];
+        }
+    }
+}
+
 - (void)applicationWillTerminate:(UIApplication *)application {
     for (id<AppService> service in self.services) {
         if ([service respondsToSelector:@selector(applicationWillTerminate:)]) {
